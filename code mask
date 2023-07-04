@@ -1,0 +1,9 @@
+# This code will show clients what is available in the store.
+# First, we need to create a list of all the items in the store.
+items = ["Apples", "Oranges", "Bananas", "Grapes", "Pears"]
+# Next, we need to create a function that will display the items in the list.
+def display_items():
+  for item in items:
+    print(item)
+# Finally, we need to call the function to display the items in the list.
+display_items()
